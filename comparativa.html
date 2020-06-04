@@ -1,0 +1,84 @@
+<!--Creado por Jhon Fernando Moreno Ramirez-->
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Materialize</title>
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="css/jquery-ui.min.css" type="text/css">
+    <link rel="stylesheet" href="css/materialize.min.css" type="text/css">
+</head>
+
+<body>
+    <!-- navbar -->
+    <nav>
+        <div class="nav-wrapper">
+            <a href="#" class="brand-logo">Mundo Linux</a>
+            <ul id="nav-mobile" class="right hide-on-med-and-down">
+                <li><a href="ingresar.html">Ingresar</a></li>
+                <li><a href="crearusuario.html">Crear Usuario</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="row">
+        <div class="col s3">
+            <!-- Grey navigation panel -->
+            <div class="collection">
+                <a href="index.html" class="collection-item">Inicio</a>
+                <a href="distribuciones.html" class="collection-item">Distribuciones</a>
+                <a href="comparativa.html" class="collection-item active">Comparativa con windows</a>
+            </div>
+        </div>
+        <div class="col s9">
+            <h4 class="blue-text">Comparativa entre Windows y Software libre</h4>
+            <table class="striped">
+                <thead>
+                    <tr>
+                        <th>Software Libre</th>
+                        <th>Windows</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <td>Sin costes de licencia; los costes de asistencia dependen de las distribuciones </td>
+                        <td>Costes de licencia por usuario </td>
+                    </tr>
+                    <tr>
+                        <td>Líneas de comandos </td>
+                        <td>Interfaz gráfica de usuario </td>
+                    </tr>
+                    <tr>
+                        <td>Solución integrada (terminal y shell) </td>
+                        <td>Servidor de terminales; el cliente tiene que instalarse y configurarse </td>
+                    </tr>
+                    <tr>
+                        <td>No ofrece portabilidad para todos los programas; gran cantidad de aplicaciones disponibles </td>
+                        <td>Soporta programas habituales; posibilidad de utilizar aplicaciones de Microsoft</td>
+                    </tr>
+                    <tr>
+                        <td>Por lo general, pueden utilizarse los controladores de hardware para las distribuciones de Linux más tarde </td>
+                        <td>El nuevo hardware está diseñado normalmente para los sistemas Windows </td>
+                    </tr>
+                    <tr>
+                        <td>Los usuarios habituales no tienen acceso a los ajustes básicos del sistema; las vulnerabilidades conocidas se solucionan rápidamente </td>
+                        <td>Elevado potencial de errores de usuario; interfaz integrada como posible punto de ataque </td>
+                    </tr>
+                    <tr>
+                        <td>La asistencia varía en función de la distribución y de la versión </td>
+                        <td>Asistencia a largo plazo para todas las versiones </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <script src="js/jquery.js"></script>
+    <script src="js/materialize.min.js"></script>
+    <script src="js/funciones.js"></script>
+</body>
+
+</html>
